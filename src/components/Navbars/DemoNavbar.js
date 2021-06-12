@@ -74,7 +74,7 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/how-to" tag={Link}>
                 <img alt="..." src={reactWhite} />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -90,7 +90,7 @@ class DemoNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/">
+                      <Link to="/how-to">
                         <img alt="..." src={argonReact} />
                       </Link>
                     </Col>
@@ -106,10 +106,10 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <span className="nav-link-inner--text"> Menu </span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/portfolio" tag={Link}>
                         Portfolio
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
@@ -138,7 +138,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/"
+                      href="https://www.instagram.com/aseel_dweedar/"
                       id="tooltip356693867"
                       target="_blank"
                     >
