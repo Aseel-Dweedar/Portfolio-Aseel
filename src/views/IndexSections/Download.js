@@ -25,111 +25,77 @@ class Download extends React.Component {
   render() {
     return (
       <>
-        {/* <section className="section section-lg">
+        <section className="section section-lg">
           <Container>
             <Row className="row-grid justify-content-center">
               <Col className="text-center" lg="8">
                 <div className="text-center">
-                  <h4 className="display-4 mb-5 mt-5">
-                    Available on these technologies
-                  </h4>
+                  <h4 className="display-4 mb-5 mt-5">Languages And Technologies</h4>
                   <Row className="justify-content-center">
                     <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system?ref=adsr-landing-page"
+                      <img
                         id="tooltip255035741"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg"
-                        />
-                      </a>
+                        alt="..."
+                        className="img-fluid"
+                        src="https://brandslogo.net/wp-content/uploads/2016/06/bootstrap-logo-vector-download.jpg"
+                      />
                       <UncontrolledTooltip delay={0} target="tooltip255035741">
                         Bootstrap 4 - Most popular front - end component library
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/vue-argon-design-system?ref=adsr-landing-page"
+                      <img
                         id="tooltip265846671"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg"
-                        />
-                      </a>
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.blockachain.gr/wp-content/uploads/2018/03/java-coffee-cup-logo.png"
+                      />
                       <UncontrolledTooltip delay={0} target="tooltip265846671">
-                        Vue.js - The progressive javascript framework
+                        Java
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsr-landing-page"
+                      <img
                         id="tooltip233150499"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg"
-                        />
-                      </a>
+                        alt="..."
+                        className="img-fluid"
+                        src="https://e1.pngegg.com/pngimages/736/783/png-clipart-macos-app-icons-android-studio.png"
+                      />
                       <UncontrolledTooltip delay={0} target="tooltip233150499">
-                        Angular - One framework.Mobile & Desktop
+                        Android studio
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                      <img
                         id="tooltip308866163"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
-                        />
-                      </a>
+                        alt="..."
+                        className="img-fluid"
+                        src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
+                      />
                       <UncontrolledTooltip delay={0} target="tooltip308866163">
-                        React - A JavaScript library for building user
-                        interfaces
+                        React - A JavaScript library for building user interfaces
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                      <img
                         id="tooltip76119384"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg"
-                        />
-                      </a>
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9lNWJjNzliM2I4ZTU4NzQ3MmNkZTcwYThiY2U5OGRlYz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.cE7EkyO4LOtupC1zGvF8spYlRImQ05TWNlsfhz_5InE"
+                      />
                       <UncontrolledTooltip delay={0} target="tooltip76119384">
-                        Sketch - Digital design toolkit
+                        AWS Amplify
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
-                      <a
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                      <img
                         id="tooltip646643508"
-                        target="_blank"
-                      >
-                        <img
-                          alt="..."
-                          className="img-fluid"
-                          src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg"
-                        />
-                      </a>
+                        alt="..."
+                        className="img-fluid"
+                        src="https://ih1.redbubble.net/image.195575713.9130/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
+                      />
                       <UncontrolledTooltip delay={0} target="tooltip646643508">
-                        Adobe Photoshop - Software for digital images
-                        manipulation
+                        Spring boot framework
                       </UncontrolledTooltip>
                     </Col>
                   </Row>
@@ -137,7 +103,7 @@ class Download extends React.Component {
               </Col>
             </Row>
           </Container>
-        </section> */}
+        </section>
       </>
     );
   }
