@@ -68,13 +68,9 @@ class DemoNavbar extends React.Component {
     return (
       <>
         <header className="header-global">
-          <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
-            expand="lg"
-            id="navbar-main"
-          >
+          <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/how-to" tag={Link}>
+              <NavbarBrand className="mr-lg-5" to="/portfolio" tag={Link}>
                 <img alt="..." src={reactWhite} />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -90,7 +86,7 @@ class DemoNavbar extends React.Component {
                 <div className="navbar-collapse-header">
                   <Row>
                     <Col className="collapse-brand" xs="6">
-                      <Link to="/how-to">
+                      <Link to="/portfolio">
                         <img alt="..." src={argonReact} />
                       </Link>
                     </Col>
@@ -127,9 +123,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-linkedin-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Linkedin
-                      </span>
+                      <span className="nav-link-inner--text d-lg-none ml-2">Linkedin</span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
                       Connect me on Linkedin
@@ -143,9 +137,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
-                      </span>
+                      <span className="nav-link-inner--text d-lg-none ml-2">Instagram</span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
                       Follow me on Instagram
@@ -159,9 +151,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-github" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Github
-                      </span>
+                      <span className="nav-link-inner--text d-lg-none ml-2">Github</span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
                       Follow me on Github

@@ -57,10 +57,7 @@ class Profile extends React.Component {
                 x="0"
                 y="0"
               >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
+                <polygon className="fill-white" points="2560 0 2560 100 0 100" />
               </svg>
             </div>
           </section>
@@ -72,29 +69,22 @@ class Profile extends React.Component {
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          <img
-                            alt="..."
-                            className="rounded-circle"
-                            src={profile}
-                          />
+                          <img alt="..." className="rounded-circle" src={profile} />
                         </a>
                       </div>
                     </Col>
-                    <Col
-                      className="order-lg-3 text-lg-right align-self-lg-center"
-                      lg="4"
-                    >
+                    <Col className="order-lg-3 text-lg-right align-self-lg-center" lg="4">
                       <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
+                        {/* <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
+                          href="https://www.linkedin.com/in/aseel-dweedar/"
                           onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="float-right"
                           color="default"
                           href="#pablo"
@@ -102,7 +92,7 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           Message
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
@@ -112,7 +102,7 @@ class Profile extends React.Component {
                           <span className="description"> Projects </span>
                         </div>
                         <div>
-                          <span className="heading"> 3 </span>
+                          <span className="heading"> 4 </span>
                           <span className="description"> Courses </span>
                         </div>
                       </div>
@@ -140,13 +130,9 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Starting with software developing a new journey. After
-                          a five years in architecture and creative work, now
-                          more of learning, research, and self-development.
+                          Graduated from ASAC software development Bootcamp as a full stack developer. Working on HTML,
+                          CSS, Javascript, Reactjs, Nodejs, Java, and Android.
                         </p>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>

@@ -18,16 +18,7 @@
 /*eslint-disable*/
 import React from "react";
 // reactstrap components
-import {
-  Button,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip,
-} from "reactstrap";
+import { Button, NavItem, NavLink, Nav, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
 class SimpleFooter extends React.Component {
   render() {
@@ -37,12 +28,8 @@ class SimpleFooter extends React.Component {
           <Container>
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
-                <h3 className=" text-primary font-weight-light mb-2">
-                  Thank you for visiting!
-                </h3>
-                <h4 className=" mb-0 font-weight-light">
-                  Let's get in touch on any of these platforms.
-                </h4>
+                <h3 className=" text-primary font-weight-light mb-2">Thank you for visiting!</h3>
+                <h4 className=" mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
@@ -90,7 +77,7 @@ class SimpleFooter extends React.Component {
               </Col>
             </Row>
             <hr />
-            <Row className=" align-items-center justify-content-md-between">
+            {/* <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
@@ -103,7 +90,7 @@ class SimpleFooter extends React.Component {
                   .
                 </div>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
         </footer>
       </>
