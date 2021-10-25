@@ -30,6 +30,7 @@ import mentaHealth from "assets/img/projects/menta-health.PNG";
 import homeGym from "assets/img/projects/home-gym.PNG";
 import canOfBook from "assets/img/projects/can-of-book.PNG";
 import horedBeasts from "assets/img/projects/hored-beasts.PNG";
+import cityExplorer from "assets/img/projects/city-explorer.PNG";
 import salmon from "assets/img/projects/salmon.PNG";
 import busmall from "assets/img/projects/busmall.PNG";
 import CSSpic from "assets/img/projects/CSSpic.png";
@@ -361,6 +362,19 @@ class Landing extends React.Component {
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="6" md="6">
                   <div className="px-4">
+                    <img alt="..." className=" img-center img-fluid shadow shadow-lg--hover" src={cityExplorer} />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1  display-4">City Explorer</span>
+                        <a className="text-warning mt-5" href="https://city-data.netlify.app">
+                          Visit Website
+                        </a>
+                      </h5>
+                    </div>
+                  </div>
+                </Col>
+                {/* <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                  <div className="px-4">
                     <img alt="..." className=" img-center img-fluid shadow shadow-lg--hover" src={salmon} />
                     <div className="pt-4 text-center">
                       <h5 className="title">
@@ -371,7 +385,7 @@ class Landing extends React.Component {
                       </h5>
                     </div>
                   </div>
-                </Col>
+                </Col> */}
               </Row>
             </Container>
           </section>
