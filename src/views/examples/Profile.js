@@ -123,14 +123,14 @@ class Profile extends React.Component {
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      ACAC
+                      LTUC
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Graduated from ASAC software development Bootcamp as a full stack developer. Working on HTML,
+                          Graduated from LTUC software development Bootcamp as a full stack developer. Working on HTML,
                           CSS, Javascript, Reactjs, Nodejs, Java, and Android.
                         </p>
                       </Col>
