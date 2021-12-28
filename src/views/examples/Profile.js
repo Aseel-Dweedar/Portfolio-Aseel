@@ -123,7 +123,7 @@ class Profile extends React.Component {
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      LTUC
+                      ASAC
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">

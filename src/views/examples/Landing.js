@@ -303,6 +303,7 @@ class Landing extends React.Component {
                     >
                       Visit Mobile App - Android, AWS-Amplify (GraphQL) ,
                     </a>
+                    <br></br>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="https://github.com/Aseel-Dweedar/tripleC-native"
