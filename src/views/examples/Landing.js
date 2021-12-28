@@ -301,7 +301,13 @@ class Landing extends React.Component {
                       className="font-weight-bold text-warning mt-5"
                       href="https://github.com/car-care-center-CCC/car-care-center-CCC"
                     >
-                      Visit Mobile App
+                      Visit Mobile App - Android, AWS-Amplify (GraphQL) ,
+                    </a>
+                    <a
+                      className="font-weight-bold text-warning mt-5"
+                      href="https://github.com/Aseel-Dweedar/tripleC-native"
+                    >
+                      Visit Mobile App - React-native, Node.js (Express), MongoDB.
                     </a>
                   </div>
                 </Col>

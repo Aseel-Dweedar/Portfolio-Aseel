@@ -130,7 +130,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Graduated from LTUC software development Bootcamp as a full stack developer. Working on HTML,
+                          Graduated from ASAC software development Bootcamp as a full stack developer. Working on HTML,
                           CSS, Javascript, Reactjs, Nodejs, Java, and Android.
                         </p>
                       </Col>

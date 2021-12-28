@@ -81,7 +81,7 @@ class Download extends React.Component {
                         id="tooltip76119384"
                         alt="..."
                         className="img-fluid"
-                        src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9lNWJjNzliM2I4ZTU4NzQ3MmNkZTcwYThiY2U5OGRlYz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.cE7EkyO4LOtupC1zGvF8spYlRImQ05TWNlsfhz_5InE"
+                        src="https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1614693270655%2FgwygLoVe2.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
                       />
                       <UncontrolledTooltip delay={0} target="tooltip76119384">
                         AWS Amplify
@@ -96,6 +96,105 @@ class Download extends React.Component {
                       />
                       <UncontrolledTooltip delay={0} target="tooltip646643508">
                         Spring boot framework
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        Angular framework
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.chartjs.org/img/chartjs-logo.svg"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        Chartjs
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://static.cdnlogo.com/logos/c/18/css.svg"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        CSS
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://images.viblo.asia/0f485078-ecef-4570-a282-78a1f25d0541.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        Nodejs-express
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        Git
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        HTML
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://e7.pngegg.com/pngimages/602/440/png-clipart-javascript-open-logo-number-js-angle-text.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        Javascript
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://icon-library.com/images/logo-mongodb-png-mongo-db-shaped-sticker-650.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        MongoDB
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.unixmen.com/wp-content/uploads/2017/07/postgresql-logo.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        PostgerSQL
                       </UncontrolledTooltip>
                     </Col>
                   </Row>
