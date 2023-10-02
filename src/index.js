@@ -25,36 +25,36 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
+// import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
+// import Register from "views/examples/Register.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={(props) => <Profile {...props} />} />
+      <Route path="/" exact render={(props) => <Landing {...props} />} />
       <Route
         path="/portfolio"
         exact
         render={(props) => <Landing {...props} />}
       />
-      <Route
+      {/* <Route
         path="/login-page"
         exact
         render={(props) => <Login {...props} />}
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/profile-page"
         exact
         render={(props) => <Profile {...props} />}
-      />
-      <Route
+      /> */}
+      {/* <Route
         path="/register-page"
         exact
         render={(props) => <Register {...props} />}
-      />
-      <Route path="/how-to" exact render={(props) => <Index {...props} />} />
-      <Redirect to="/" />
+      /> */}
+      {/* <Route path="/how-to" exact render={(props) => <Index {...props} />} /> */}
+      {/* <Redirect to="/" /> */}
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

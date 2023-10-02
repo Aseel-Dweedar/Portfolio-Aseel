@@ -25,14 +25,14 @@ class Download extends React.Component {
   render() {
     return (
       <>
-        <section className="section section-lg">
+        <section>
           <Container>
             <Row className="row-grid justify-content-center">
               <Col className="text-center" lg="8">
                 <div className="text-center">
-                  <h4 className="display-4 mb-5 mt-5">Languages And Technologies</h4>
+                  <h4 className="display-4 mb-5">Languages And Technologies</h4>
                   <Row className="justify-content-center">
-                    <Col lg="2" xs="4">
+                    {/* <Col lg="2" xs="4">
                       <img
                         id="tooltip255035741"
                         alt="..."
@@ -42,8 +42,8 @@ class Download extends React.Component {
                       <UncontrolledTooltip delay={0} target="tooltip255035741">
                         Bootstrap 4 - Most popular front - end component library
                       </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
+                    </Col> */}
+                    {/* <Col lg="2" xs="4">
                       <img
                         id="tooltip265846671"
                         alt="..."
@@ -53,8 +53,8 @@ class Download extends React.Component {
                       <UncontrolledTooltip delay={0} target="tooltip265846671">
                         Java
                       </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
+                    </Col> */}
+                    {/* <Col lg="2" xs="4">
                       <img
                         id="tooltip233150499"
                         alt="..."
@@ -64,60 +64,16 @@ class Download extends React.Component {
                       <UncontrolledTooltip delay={0} target="tooltip233150499">
                         Android studio
                       </UncontrolledTooltip>
-                    </Col>
+                    </Col> */}
                     <Col lg="2" xs="4">
                       <img
-                        id="tooltip308866163"
+                        id="tooltip6466435087"
                         alt="..."
                         className="img-fluid"
-                        src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"
+                        src="https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png"
                       />
-                      <UncontrolledTooltip delay={0} target="tooltip308866163">
-                        React - A JavaScript library for building user interfaces
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <img
-                        id="tooltip76119384"
-                        alt="..."
-                        className="img-fluid"
-                        src="https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1614693270655%2FgwygLoVe2.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-                      />
-                      <UncontrolledTooltip delay={0} target="tooltip76119384">
-                        AWS Amplify
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <img
-                        id="tooltip646643508"
-                        alt="..."
-                        className="img-fluid"
-                        src="https://ih1.redbubble.net/image.195575713.9130/st,small,507x507-pad,600x600,f8f8f8.u2.jpg"
-                      />
-                      <UncontrolledTooltip delay={0} target="tooltip646643508">
-                        Spring boot framework
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <img
-                        id="tooltip6466435081"
-                        alt="..."
-                        className="img-fluid"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
-                      />
-                      <UncontrolledTooltip delay={0} target="tooltip6466435081">
-                        Angular framework
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <img
-                        id="tooltip6466435082"
-                        alt="..."
-                        className="img-fluid"
-                        src="https://www.chartjs.org/img/chartjs-logo.svg"
-                      />
-                      <UncontrolledTooltip delay={0} target="tooltip6466435082">
-                        Chartjs
+                      <UncontrolledTooltip delay={0} target="tooltip6466435087">
+                        Javascript
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
@@ -132,6 +88,84 @@ class Download extends React.Component {
                       </UncontrolledTooltip>
                     </Col>
                     <Col lg="2" xs="4">
+                      <img
+                        id="tooltip6466435088"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://cdn.iconscout.com/icon/free/png-256/free-sass-3629037-3030394.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip6466435088">
+                        SASS
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip308866163"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip308866163">
+                        React JS
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip76119384"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F67628675-8e04-46e7-9b91-a5392caf0f30%2Fnextjs-logo.png?table=block&id=e9ac778a-3b4a-486b-bd87-b5c64052adec&cache=v2"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip76119384">
+                        Next JS
+                      </UncontrolledTooltip>
+                    </Col>
+                    <Col lg="2" xs="4">
+                      <img
+                        id="tooltip646643508"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://cdn.iconscout.com/icon/free/png-256/free-redux-283024.png?f=webp"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip646643508">
+                        Redux
+                      </UncontrolledTooltip>
+                    </Col>
+                    {/* <Col lg="2" xs="4">
+                      <img
+                        id="tooltip6466435081"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip6466435081">
+                        Angular framework
+                      </UncontrolledTooltip>
+                    </Col> */}
+                    {/* <Col lg="2" xs="4">
+                      <img
+                        id="tooltip6466435082"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.chartjs.org/img/chartjs-logo.svg"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip6466435082">
+                        Chartjs
+                      </UncontrolledTooltip>
+                    </Col> */}
+                    {/* <Col lg="2" xs="4">
+                      <img
+                        id="tooltip6466435086"
+                        alt="..."
+                        className="img-fluid"
+                        src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
+                      />
+                      <UncontrolledTooltip delay={0} target="tooltip6466435086">
+                        HTML
+                      </UncontrolledTooltip>
+                    </Col> */}
+
+                    {/* <Col lg="2" xs="4">
                       <img
                         id="tooltip6466435084"
                         alt="..."
@@ -152,41 +186,8 @@ class Download extends React.Component {
                       <UncontrolledTooltip delay={0} target="tooltip6466435085">
                         Git
                       </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <img
-                        id="tooltip6466435086"
-                        alt="..."
-                        className="img-fluid"
-                        src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
-                      />
-                      <UncontrolledTooltip delay={0} target="tooltip6466435086">
-                        HTML
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <img
-                        id="tooltip6466435087"
-                        alt="..."
-                        className="img-fluid"
-                        src="https://e7.pngegg.com/pngimages/602/440/png-clipart-javascript-open-logo-number-js-angle-text.png"
-                      />
-                      <UncontrolledTooltip delay={0} target="tooltip6466435087">
-                        Javascript
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
-                      <img
-                        id="tooltip6466435088"
-                        alt="..."
-                        className="img-fluid"
-                        src="https://icon-library.com/images/logo-mongodb-png-mongo-db-shaped-sticker-650.png"
-                      />
-                      <UncontrolledTooltip delay={0} target="tooltip6466435088">
-                        MongoDB
-                      </UncontrolledTooltip>
-                    </Col>
-                    <Col lg="2" xs="4">
+                    </Col> */}
+                    {/* <Col lg="2" xs="4">
                       <img
                         id="tooltip6466435089"
                         alt="..."
@@ -196,7 +197,7 @@ class Download extends React.Component {
                       <UncontrolledTooltip delay={0} target="tooltip6466435089">
                         PostgerSQL
                       </UncontrolledTooltip>
-                    </Col>
+                    </Col> */}
                   </Row>
                 </div>
               </Col>

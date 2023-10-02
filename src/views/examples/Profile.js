@@ -34,7 +34,7 @@ class Profile extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        {/* <DemoNavbar /> */}
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
@@ -57,7 +57,10 @@ class Profile extends React.Component {
                 x="0"
                 y="0"
               >
-                <polygon className="fill-white" points="2560 0 2560 100 0 100" />
+                <polygon
+                  className="fill-white"
+                  points="2560 0 2560 100 0 100"
+                />
               </svg>
             </div>
           </section>
@@ -69,11 +72,18 @@ class Profile extends React.Component {
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          <img alt="..." className="rounded-circle" src={profile} />
+                          <img
+                            alt="..."
+                            className="rounded-circle"
+                            src={profile}
+                          />
                         </a>
                       </div>
                     </Col>
-                    <Col className="order-lg-3 text-lg-right align-self-lg-center" lg="4">
+                    <Col
+                      className="order-lg-3 text-lg-right align-self-lg-center"
+                      lg="4"
+                    >
                       <div className="card-profile-actions py-4 mt-lg-0">
                         {/* <Button
                           className="mr-4"
@@ -130,8 +140,9 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Graduated from ASAC software development Bootcamp as a full stack developer. Working on HTML,
-                          CSS, Javascript, Reactjs, Nodejs, Java, and Android.
+                          Graduated from ASAC software development Bootcamp as a
+                          full stack developer. Working on HTML, CSS,
+                          Javascript, Reactjs, Nodejs, Java, and Android.
                         </p>
                       </Col>
                     </Row>

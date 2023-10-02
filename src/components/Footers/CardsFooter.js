@@ -19,7 +19,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
-import { Button, Card, CardImg, NavItem, NavLink, Nav, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import {
+  Button,
+  Card,
+  CardImg,
+  NavItem,
+  NavLink,
+  Nav,
+  Container,
+  Row,
+  Col,
+  UncontrolledTooltip,
+} from "reactstrap";
 import landing from "assets/img/theme/landing.jpg";
 import profile from "assets/img/theme/profile.jpg";
 
@@ -31,8 +42,12 @@ class CardsFooter extends React.Component {
           <Container>
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
-                <h3 className=" text-primary font-weight-light mb-2">Thank you for visiting!</h3>
-                <h4 className=" mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+                <h3 className=" text-primary font-weight-light mb-2">
+                  Thank you for visiting!
+                </h3>
+                <h4 className=" mb-0 font-weight-light">
+                  Let's get in touch on any of these platforms.
+                </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
@@ -79,7 +94,7 @@ class CardsFooter extends React.Component {
                 </UncontrolledTooltip>
               </Col>
             </Row>
-            <hr />
+            {/* <hr /> */}
             {/* <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
