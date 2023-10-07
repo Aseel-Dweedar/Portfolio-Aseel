@@ -26,14 +26,18 @@ import React from "react";
 // import team3 from "assets/img/theme/team-3-800x800.jpg";
 // import team4 from "assets/img/theme/team-4-800x800.jpg";
 import happication from "assets/img/projects/happication.PNG";
+import madaresona from "assets/img/projects/madaresona.png";
+import newBeginning from "assets/img/projects/new-beginning.png";
+import youApply from "assets/img/projects/youapply.png";
 import mentaHealth from "assets/img/projects/menta-health.PNG";
 import homeGym from "assets/img/projects/home-gym.PNG";
-import canOfBook from "assets/img/projects/can-of-book.PNG";
-import horedBeasts from "assets/img/projects/hored-beasts.PNG";
+import kiddy from "assets/img/projects/kiddy.png";
+// import canOfBook from "assets/img/projects/can-of-book.PNG";
+// import horedBeasts from "assets/img/projects/hored-beasts.PNG";
 import cityExplorer from "assets/img/projects/city-explorer.PNG";
 // import salmon from "assets/img/projects/salmon.PNG";
-import busmall from "assets/img/projects/busmall.PNG";
-import CSSpic from "assets/img/projects/CSSpic.png";
+// import busmall from "assets/img/projects/busmall.PNG";
+// import CSSpic from "assets/img/projects/CSSpic.png";
 import me from "assets/img/projects/me.PNG";
 import tripleCAll from "assets/img/projects/tripleC-all.png";
 // import aboutMe from "assets/img/theme/aboutMe.png";
@@ -201,26 +205,25 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <h6 className="text-primary text-uppercase">
-                            HAPPICATION
+                          <h6 className="text-success text-uppercase">
+                            YouApply
                           </h6>
                           <p className="description mt-3">
-                            Website where customers can find cottage to rent,
-                            see their prices, and make a reservation.
+                            Glad to be a part of "YouApply" team, which is a
+                            leading platform that helps individuals find
+                            educational opportunities and study abroad programs.
                           </p>
                           <img
                             style={{ width: "100%" }}
-                            src={happication}
+                            src={youApply}
                             alt=""
                           />
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="success"
                             onClick={(e) => {
                               e.preventDefault();
-                              window.open(
-                                "https://aseel-dweedar.github.io/happication/"
-                              );
+                              window.open("https://youapply.com");
                             }}
                           >
                             Show Website
@@ -231,27 +234,25 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <h6 className="text-success text-uppercase">
-                            LightHouse
+                          <h6 className="text-primary text-uppercase">
+                            Madaresona
                           </h6>
                           <p className="description mt-3">
-                            Web application support Mental-health Care issues,
-                            and help people by let them ask for help when they
-                            need it.
+                            <b>Currently working on</b> "Madaresona", which is a
+                            platform containing all of public and privet
+                            schools, and all of these service and relations.
                           </p>
                           <img
                             style={{ width: "100%" }}
-                            src={mentaHealth}
+                            src={madaresona}
                             alt=""
                           />
                           <Button
                             className="mt-4"
-                            color="success"
+                            color="primary"
                             onClick={(e) => {
                               e.preventDefault();
-                              window.open(
-                                "https://github.com/Mental-HealthCare/Mental-HealthCare"
-                              );
+                              window.open("https://madaresona.netlify.app/");
                             }}
                           >
                             Show Website
@@ -266,7 +267,8 @@ class Landing extends React.Component {
                             HomeGym
                           </h6>
                           <p className="description mt-3">
-                            Web application that allow users to browse gym
+                            Glad to be a part of "HomeGym" team, which is a Web
+                            application that allow users to browse gym
                             equipment, add it to cart, byu it now or save it for
                             later.
                           </p>
@@ -334,6 +336,149 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section bg-secondary">
+            <Container>
+              <Row className="justify-content-center text-center mb-lg">
+                <Col lg="8">
+                  <h2 className="display-3">More wonderful projects</h2>
+                  <p className="lead text-muted">
+                    Here you can find some of the projects that I worked on.
+                  </p>
+                </Col>
+              </Row>
+              <Row className="justify-content-center text-center mb-lg">
+                <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                  <div
+                    onClick={() =>
+                      window.open("https://aseel-dweedar.github.io/happication")
+                    }
+                    className="px-4"
+                  >
+                    <img
+                      alt="..."
+                      className="img-center img-fluid shadow shadow-lg--hover"
+                      src={happication}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1  display-4">
+                          Happication
+                        </span>
+                        {/* <a
+                          className="text-warning mt-5"
+                          href="https://aseel-dweedar.github.io/happication"
+                          target="_blank"
+                        >
+                          Visit Web App
+                        </a> */}
+                      </h5>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                  <div
+                    onClick={() =>
+                      window.open("https://www.youtube.com/watch?v=LFXxHjWJ_mI")
+                    }
+                    className="px-4"
+                  >
+                    <img
+                      alt="..."
+                      className="img-center img-fluid shadow shadow-lg--hover"
+                      src={mentaHealth}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1  display-4">
+                          Light House
+                        </span>
+                        {/* <a
+                          className="text-warning mt-5"
+                          href="https://www.youtube.com/watch?v=LFXxHjWJ_mI"
+                          target="_blank"
+                        >
+                          Visit Web App
+                        </a> */}
+                      </h5>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+              <Row className="justify-content-center text-center mb-lg">
+                <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                  <div
+                    onClick={() =>
+                      window.open("https://newwbeginning.netlify.app")
+                    }
+                    className="px-4"
+                  >
+                    <img
+                      alt="..."
+                      className="img-center img-fluid shadow shadow-lg--hover"
+                      src={newBeginning}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1  display-4">
+                          ThreeJS - New Beginning
+                        </span>
+                        <span
+                          className="text-warning mt-5"
+                          // href="https://newwbeginning.netlify.app/"
+                          // target="_blank"
+                        >
+                          (Click to start the scene)
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Aseel-Dweedar/kiddy-react-native-cli"
+                      )
+                    }
+                    className="px-4"
+                  >
+                    <img
+                      alt="..."
+                      className=" img-center img-fluid shadow shadow-lg--hover"
+                      src={kiddy}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1  display-4">
+                          Kids Game
+                        </span>
+                        <span
+                          className="text-warning mt-5"
+                          // href="https://github.com/Aseel-Dweedar/kiddy-react-native-cli"
+                          // target="_blank"
+                        >
+                          React Native App
+                        </span>
+                      </h5>
+                    </div>
+                  </div>
+                </Col>
+                {/* <Col className="mb-5 mb-lg-0" lg="6" md="6">
+                  <div className="px-4">
+                    <img alt="..." className=" img-center img-fluid shadow shadow-lg--hover" src={salmon} />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1  display-4">Cookie Stand</span>
+                        <a className="text-warning mt-5" target="_blank" href="https://aseel-dweedar.github.io/cookie-stand">
+                          Visit Website
+                        </a>
+                      </h5>
+                    </div>
+                  </div>
+                </Col> */}
+              </Row>
+            </Container>
+          </section>
+          {/* <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
@@ -419,133 +564,14 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section section-lg">
-            <Container>
-              <Row className="justify-content-center text-center mb-lg">
-                <Col lg="8">
-                  <h2 className="display-3">More wonderful projects</h2>
-                  <p className="lead text-muted">
-                    Here you can find some of the projects that I worked on
-                    during the ASAC intensive course.
-                  </p>
-                </Col>
-              </Row>
-              <Row className="justify-content-center text-center mb-lg">
-                <Col className="mb-5 mb-lg-0" lg="6" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="img-center img-fluid shadow shadow-lg--hover"
-                      src={canOfBook}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1  display-4">
-                          Can of books
-                        </span>
-                        <a
-                          className="text-warning mt-5"
-                          href="https://books-can.netlify.app"
-                          target="_blank"
-                        >
-                          Visit Web App
-                        </a>
-                      </h5>
-                    </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="6" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="img-center img-fluid shadow shadow-lg--hover"
-                      src={horedBeasts}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1  display-4">
-                          Hored Beasts
-                        </span>
-                        <a
-                          className="text-warning mt-5"
-                          href="https://beast-hornd.netlify.app"
-                          target="_blank"
-                        >
-                          Visit Web App
-                        </a>
-                      </h5>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-              <Row className="justify-content-center text-center mb-lg">
-                <Col className="mb-5 mb-lg-0" lg="6" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="img-center img-fluid shadow shadow-lg--hover"
-                      src={busmall}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1  display-4">
-                          Buss Mall
-                        </span>
-                        <a
-                          className="text-warning mt-5"
-                          href="https://aseel-dweedar.github.io/bus-mall"
-                          target="_blank"
-                        >
-                          Visit Website
-                        </a>
-                      </h5>
-                    </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="6" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className=" img-center img-fluid shadow shadow-lg--hover"
-                      src={cityExplorer}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1  display-4">
-                          City Explorer
-                        </span>
-                        <a
-                          className="text-warning mt-5"
-                          href="https://city-data.netlify.app"
-                          target="_blank"
-                        >
-                          Visit Website
-                        </a>
-                      </h5>
-                    </div>
-                  </div>
-                </Col>
-                {/* <Col className="mb-5 mb-lg-0" lg="6" md="6">
-                  <div className="px-4">
-                    <img alt="..." className=" img-center img-fluid shadow shadow-lg--hover" src={salmon} />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1  display-4">Cookie Stand</span>
-                        <a className="text-warning mt-5" target="_blank" href="https://aseel-dweedar.github.io/cookie-stand">
-                          Visit Website
-                        </a>
-                      </h5>
-                    </div>
-                  </div>
-                </Col> */}
-              </Row>
-            </Container>
-          </section>
+          </section> */}
           <section className="section pb-10 bg-gradient-warning">
             <Container>
-              <Row className="row-grid align-items-center">
-                <Col className="order-lg-2 ml-lg-auto" md="6">
+              <Row className="row-grid align-items-center col-reverse">
+                <Col
+                  className="order-lg-2 ml-lg-auto about-me-container"
+                  md="6"
+                >
                   <Card className="shadow shadow-lg--hover mt-5">
                     <CardBody>
                       <div className="d-flex px-3">
@@ -554,7 +580,15 @@ class Landing extends React.Component {
                             <i className="ni ni-satisfied" />
                           </div>
                         </div>
-                        <div className="pl-4">
+                        <div
+                          onClick={(e) => {
+                            e.preventDefault();
+                            window.open(
+                              "https://aseel-dweedar.github.io/about-me/"
+                            );
+                          }}
+                          className="pl-4 flex-col"
+                        >
                           <a
                             href="https://aseel-dweedar.github.io/about-me/"
                             onClick={(e) => e.preventDefault()}
@@ -564,12 +598,6 @@ class Landing extends React.Component {
                             You can also visit About-me website..
                           </a>
                           <img
-                            onClick={(e) => {
-                              e.preventDefault();
-                              window.open(
-                                "https://aseel-dweedar.github.io/about-me/"
-                              );
-                            }}
                             style={{ height: "120px", marginTop: "5px" }}
                             src={me}
                             alt=""
@@ -599,11 +627,8 @@ class Landing extends React.Component {
                         More about me ...
                       </h4>
                       <p className="text-white">
-                        Hey, this is me Aseel Dweedar,I graduated from the
-                        Faculty of Architecture in 2015, and I tried many jobs
-                        within five years, these experiences changed me a lot,
-                        so I became more powerful. Now I aim to be a
-                        professional software developer.
+                        Hey there! There's always something new to discover
+                        about me :)
                       </p>
                     </div>
                   </div>

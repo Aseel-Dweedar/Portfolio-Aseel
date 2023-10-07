@@ -31,7 +31,7 @@ class Download extends React.Component {
               <Col className="text-center" lg="8">
                 <div className="text-center">
                   <h4 className="display-4 mb-5">Languages And Technologies</h4>
-                  <Row className="justify-content-center">
+                  <Row className="justify-content-center tech-container">
                     {/* <Col lg="2" xs="4">
                       <img
                         id="tooltip255035741"

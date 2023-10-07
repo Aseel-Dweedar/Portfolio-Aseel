@@ -459,6 +459,40 @@
 .pt-450 {
   padding-top: 450px;
 }
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 992px) {
+  .card-profile-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .pt-450 {
+    padding-top: 20px;
+  }
+
+  .tech-container .col-4 {
+    flex-basis: 15%;
+  }
+
+  .about-me-container {
+    max-width: unset;
+  }
+  .col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .tech-container {
+    gap: 20px;
+  }
+  .tech-container .col-4 {
+    flex-basis: 33%;
+  }
+}
 
 // Device illustrations used on shape sections
 .device-ill {
